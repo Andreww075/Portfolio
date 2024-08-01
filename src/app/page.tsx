@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { navItems } from "@/data";
 import { FloatingNav } from "@/components/ui/floating-navbar";
 import Hero from "@/components/hero";
@@ -6,6 +5,8 @@ import Grid from "@/components/grid";
 import RecentProjects from "@/components/recent-projects";
 import Clients from "@/components/clients";
 import Approach from "@/components/approach";
+import Experience from "@/components/experience";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -16,8 +17,9 @@ export default function Home() {
         <Grid />
         <RecentProjects />
         <Clients />
-
+        <Experience />
         <Approach />
+        <Footer />
       </div>
     </main>
   );
