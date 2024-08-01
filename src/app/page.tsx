@@ -2,6 +2,7 @@ import Image from "next/image";
 import { navItems } from "@/data";
 import { FloatingNav } from "@/components/ui/floating-navbar";
 import Hero from "@/components/hero";
+import Grid from "@/components/grid";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
         <Hero />
+        <Grid />
       </div>
     </main>
   );
