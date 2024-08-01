@@ -1,7 +1,7 @@
 import React from "react";
 import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./magic-button";
-import { Spotlight } from "./ui/Spotlight";
+import { Spotlight } from "./ui/spotlight";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 
 const Hero = () => {
@@ -57,7 +57,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Adrian, a Next.js Developer based in Croatia.
+            Hi! I&apos;m Nicolás, a Next.js Developer in Colombia.
           </p>
 
           <a href="#about">

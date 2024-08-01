@@ -3,6 +3,7 @@ import { navItems } from "@/data";
 import { FloatingNav } from "@/components/ui/floating-navbar";
 import Hero from "@/components/hero";
 import Grid from "@/components/grid";
+import RecentProjects from "@/components/recent-projects";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <FloatingNav navItems={navItems} />
         <Hero />
         <Grid />
+        <RecentProjects />
       </div>
     </main>
   );
